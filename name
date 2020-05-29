@@ -1,0 +1,3 @@
+$ git config user.name "Anar"
+$ git config user.name
+> Anar
