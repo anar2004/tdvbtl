@@ -1,0 +1,37 @@
+	<div class="esasyeri container-fluid">
+
+		<a href="xəbərlər/77">
+			<div class="col-xl-4 col-lg-5 col-md-5 col-sm-10 col-11 shekil1 shkl">
+
+				<div class="picturediv11">
+					<img class="picture1" src="images/carousel1/5.jpg">
+				</div>
+
+				<div class="picturetextdiv1">
+					<p class="t11"> Təhsil naziri liseyimizin şagirdləri ilə görüşüb </p>
+					<p class="t12"> 18.01.2020 </p>
+				</div>
+
+				<div class="shekdiv1 col-xl-12 col-lg-12">
+				</div>
+
+			</div>
+		</a>
+		<a href="xəbərlər/76">
+			<div class="col-xl-4 col-lg-5 col-md-5 col-sm-10 col-11 shekil2 shkl">
+				<div class="picturediv11">
+						<img class="picture2" src="images/carousel2/10.jpg">
+					</div>
+
+					<div class="picturetextdiv1">
+						<p class="t11"> Qalib və mükafatçı adını qazanmış şagirdlərimiz mükafatlandırılıb </p>
+						<p class="t12"> 08.01.2020 </p>
+					</div>
+
+					<div class="shekdiv2 col-xl-12 col-lg-12">
+					</div>
+				</div>
+			</div>
+		</a>
+
+	</div>

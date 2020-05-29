@@ -1,0 +1,27 @@
+
+@media (min-width: 329.98px)	{
+	.mapdiv3	{
+		height: 700px;
+	}
+
+	.mapitself2	{
+		height: 100%;
+		width: 100%;
+	}
+
+	.maptextdiv2	{
+		height: auto;
+		margin: 0px auto;
+		text-align: center;
+		left:0px;
+	}
+
+	.maptext1	, .maptext2	{
+		left:0px;
+	}
+
+	.maptext1:hover	{
+		color:#712647;
+	}
+
+}
