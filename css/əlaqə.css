@@ -1,27 +1,55 @@
+.formrow	{
+	border-left: 2px solid #712647;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.mapdiv3	{
+	height: 700px;
+}
 
-@media (min-width: 329.98px)	{
-	.mapdiv3	{
-		height: 700px;
-	}
+.mapitself2	{
+	height: 100%;
+	width: 100%;
+}
 
-	.mapitself2	{
-		height: 100%;
-		width: 100%;
-	}
+.yenegoy	{
+	color: #c70039;
+	text-decoration: none;
+}
 
-	.maptextdiv2	{
-		height: auto;
-		margin: 0px auto;
-		text-align: center;
-		left:0px;
-	}
+.yenegoy:hover	{
+	color: #c70039;
+}
 
-	.maptext1	, .maptext2	{
-		left:0px;
-	}
+.maptextdiv2	{
+	height: auto;
+	left:0px;
+	padding-left: 8%;
+}
 
-	.maptext1:hover	{
-		color:#712647;
-	}
+
+
+.maptext1	, .maptext2	{
+	left:0px;
+}
+
+.maptext1:hover	{
+	color:#712647;
+}
+
+
+@media (min-width: 330px) and (max-width: 575.98px) {
+.formrow	{
+	padding-left: 10%;
+	padding-right: 10%;
+	border-left: 0px;
+	border-top: 2px solid #712647;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.maptextdiv2	{
+	padding-left: 14%;
+}
 
 }

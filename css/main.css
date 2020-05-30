@@ -378,6 +378,15 @@ body	{
 	right:1vw;
 }
 
+.yenegoy	{
+	color: #c70039;
+	text-decoration: none;
+}
+
+.yenegoy:hover	{
+	color: #c70039;
+}
+
 .more:hover	{
 	background-color:#c70039;
 }
