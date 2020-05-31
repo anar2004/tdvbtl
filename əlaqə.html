@@ -68,22 +68,26 @@
 		</div>
 
 		<div class="container-fluid formrow col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-		<form id="form" name="contact" method="POST" data-netlify="true" onsubmit="return validateForm()" required>
+		<form id="form" name="contact" method="POST" data-netlify="true">
 			<div class="form-group">
 				<label for="name">Ad:</label>
-				<input type="text" name="name" class="form-control" id="name" placeholder="TDV BTL">
+				<input required=""  oninvalid="this.setCustomValidity('Ad sahəsi doldurulmalıdır')"
+    oninput="this.setCustomValidity('')" type="text" name="name" class="form-control" id="name" placeholder="TDV BTL">
 			</div>
 		  <div class="form-group">
 		    <label for="email">E-mail ünvanı:</label>
-		    <input type="email" name="email" class="form-control" id="email" placeholder="tdvbtl.edu.az@gmail.com">
+		    <input required="" oninvalid="this.setCustomValidity('E-mail sahəsi doldurulmalıdır')"
+    oninput="this.setCustomValidity('')" type="email" name="email" class="form-control" id="email" placeholder="tdvbtl.edu.az@gmail.com">
 		  </div>
 			<div class="form-group">
 				<label for="number">Əlaqə telefonu:</label>
-				<input type="tel" name="number" class="form-control" id="number" placeholder="(+994 50) 123 45 67">
+				<input required="" oninvalid="this.setCustomValidity('Nömrə sahəsi doldurulmalıdır')"
+    oninput="this.setCustomValidity('')" type="tel" name="number" class="form-control" id="number" placeholder="(+994 50) 123 45 67">
 			</div>
 		  <div class="form-group">
 		    <label for="message">Mesaj:</label>
-		    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+		    <textarea required="" oninvalid="this.setCustomValidity('Mesaj sahəsini doldurulmalıdır')"
+    oninput="this.setCustomValidity('')" name="message" class="form-control" id="message" rows="3"></textarea>
 		  </div>
 			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
@@ -97,21 +101,7 @@
 		</div>
 
 		<script>
-function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "" || x == null) {
-    alert("Name must be filled out");
-    return false;
-  }
-}
-</script><script>
-function validateForm() {
-  var x = document.forms["contact"]["name"].value;
-  if (x == "" || x == null) {
-    alert("Name must be filled out");
-    return false;
-  }
-}
+
 </script>
 
 
