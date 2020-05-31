@@ -911,6 +911,33 @@
 
 	</div>
 
+	<div class="container-fluid formrow col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10">
+	<form id="form" name="contact" method="POST" data-netlify="true">
+		<div class="form-group">
+			<label for="name">Ad:</label>
+			<input required=""  oninvalid="this.setCustomValidity('Ad sahəsi doldurulmalıdır')"
+	oninput="this.setCustomValidity('')" type="text" name="name" class="form-control" id="name" placeholder="TDV BTL">
+		</div>
+		<div class="form-group">
+			<label for="email">E-mail ünvanı:</label>
+			<input required="" oninvalid="this.setCustomValidity('E-mail sahəsi doldurulmalıdır')"
+	oninput="this.setCustomValidity('')" type="email" name="email" class="form-control" id="email" placeholder="tdvbtl.edu.az@gmail.com">
+		</div>
+		<div class="form-group">
+			<label for="number">Əlaqə telefonu:</label>
+			<input required="" oninvalid="this.setCustomValidity('Nömrə sahəsi doldurulmalıdır')"
+	oninput="this.setCustomValidity('')" type="tel" name="number" class="form-control" id="number" placeholder="(+994 50) 123 45 67">
+		</div>
+		<div class="form-group">
+			<label for="message">Mesaj:</label>
+			<textarea required="" oninvalid="this.setCustomValidity('Mesaj sahəsini doldurulmalıdır')"
+	oninput="this.setCustomValidity('')" name="message" class="form-control" id="message" rows="3"></textarea>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
+</div>
+
 
 
 

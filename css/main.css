@@ -24,6 +24,14 @@ body	{
 		left:-16%;
 		top:-25px;
 		}
+		.formrow	{
+			border-left: 2px solid #712647;
+			border-right: 2px solid #712647;
+			padding-left: 5%;
+			padding-right: 5%;
+			position: relative;
+			left: 25%;
+		}
 
 
 
@@ -1607,6 +1615,17 @@ tr:hover td{
 	padding-right:3%;
 }
 }
+
+@media (max-width: 767.98px) {
+	.formrow	{
+		border-left: 0px solid #712647;
+		border-right: 0px solid #712647;
+		padding-left: 0%;
+		padding-right: 0%;
+		position: relative;
+		left: 8%;
+	}
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.news1picdiv	{
 		height: 300px;
@@ -1925,6 +1944,15 @@ tr:hover td{
 
 .ugursdiv2	{
 	height:80%;
+}
+
+.formrow	{
+	border-left: 0px solid #712647;
+	border-right: 0px solid #712647;
+	padding-left: 0%;
+	padding-right: 0%;
+	position: relative;
+	left: 16%;
 }
 }
 
